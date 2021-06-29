@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: blanchedalmond;
+ display: block;
+ padding: 3px 22px;
+ border-radius: 20px;
+ text-decoration: none;
+ border-radius: 20px;
+ font-style:italic;
+ font-weight: bold;
+ font-family: 'Baloo Bhai','cursive';
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color:gray;
+    font-style: bold;
+   
+   }
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+#logo{
+    margin: 3px 6px;
+    
+}
+
+#logo img{
+    margin: 3px 6px;
+    height: 56px;
+    top: 5px;
+    left: 5px;
+    border-radius: 100px;
+}
+ul{
+    display: flex;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    color: white;
+    font-family: cursive;
+    
+}
+
+#heading::before{
+    content: "";
+    position: absolute;
+    background: url('./tt1.jpg')no-repeat center center/cover ;
+    height: 190%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: cursive;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services.box{
+    border: 8px solid brown;
+}
+#services .box img{
+    height: 100px;
+}
+.services-container{
+margin-top: 50px;
+}
